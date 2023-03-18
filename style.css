@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+/* Header */
+
+.header {
+    width: 1272px;
+    height: 73px;
+    border: 1px solid grey;
+    margin-top: 102px;
+    margin-left: 36px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 18px;
+    margin-left: 11px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.buttons {
+    margin-top: 18px;
+    margin-right: 13px;
+}
+
+.Cancel {
+    width: 68px;
+    height: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #F24726;
+
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-color: #F24726;
+    /* color: orangered; */
+
+}
+
+.Save-Changes {
+    width: 147px;
+    height: 36px;
+    background: #000000;
+    color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.title-parent {
+    display: flex;
+    margin-left: 34px;
+    margin-top: 44px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.title {
+    width: 1224px;
+    height: 0px;
+
+
+
+}
+
+hr {
+    width: 1024px;
+}
+
+.info {
+    width: 173px;
+    height: 46px;
+    margin-left: 14px;
+    margin-top: 6px;
+    font-family: 'Manrope';
+    /* 
+     */
+    font-style: bolder;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.main {
+    display: flex;
+    border: 1px solid;
+}
+
+/* Form */
+Form {
+    margin-top: 6px;
+}
+
+.first-parent {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 76px;
+    display: flex;
+
+}
+.second-parent{
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+}
+label {
+    display: block !important;
+}
+
+.Center {
+    margin-left: 36px;
+}
+
+.Right {
+    margin-left: 36px;
+}
+
+input {
+    width: 314px;
+    padding: 10px;
+    height: 36px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+}
