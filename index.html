@@ -1,98 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Forms</title>
+    <title>Candidate Form</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="header">
-        <div class="parent">
+    <div class="form-container">
+        <div class="content-container">
             <div class="heading">
                 <h5>Alyson Hager</h5>
             </div>
             <div class="buttons">
-                <button  class = "Cancel" type="submit">Cancel</button>
+                <button class="Cancel" type="submit">Cancel</button>
                 <button class="Save-Changes" type="submit">Save Changes</button>
-                
+
             </div>
         </div>
-       
+
     </div>
     <div class="form">
-        <div class="title">
-            <div class="title-parent">
+        <div class="Information-Content">
+            <div class="icon-info">
                 <div class="icon">
                     <img src="./User.png" alt="">
                 </div>
-                <div class="info"> 
-                    <h5><strong> Basic Information </strong></h5>
+                <div class="information-type">
+                    <h5>Basic Information</h5>
                     <hr>
                 </div>
             </div>
-            
-           
+
+
         </div>
-        
+
     </div>
     <form action="#">
-            <div class="first-parent">
-                <div class="Left">
-                    <label for="#">Email</label>
-                    <input type="email" name="" placeholder="tester123456789@gmail.com">
-                </div>
-                <div class="Center">
-                    <label for="#">UserName</label>
-                    <input type="text" placeholder="alyson123">
-                </div>
-                <div class="Right">
-                    <label for="">Country</label>
-                    <input type="text" placeholder="India">
-                </div>
+        <div class="content">
+            <div class="Email">
+                <label for="#">Email</label>
+                <input type="email" name="" placeholder="tester123456789@gmail.com">
             </div>
-            <div class="second-parent">
-                <div class="Left">
-                    <label for="#">First Name</label>
-                    <input type="text" name="" placeholder="Alyson">
-                </div>
-                <div class="Center">
-                    <label for="#">LastName</label>
-                    <input type="text" placeholder="Hanger">
-                </div>
-                <div class="Right">
-                    <label for="">Contact Number</label>
-                    <input type="tel" placeholder="+91- 7054530688">
-                </div>
+            <div class="UserName">
+                <label for="#">UserName</label>
+                <input type="text" placeholder="alyson123">
             </div>
-            <div class="form">
-                <div class="title">
-                    <div class="title-parent">
-                        <div class="icon">
-                            <img src="./User.png" alt="">
+            <div class="Country">
+                <label for="">Country</label>
+                <input type="text" placeholder="India">
+            </div>
+        </div>
+        <div class="contents">
+            <div class="Email">
+                <label for="#">First Name</label>
+                <input type="text" name="" placeholder="Alyson">
+            </div>
+            <div class="UserName">
+                <label for="#">LastName</label>
+                <input type="text" placeholder="Hanger">
+            </div>
+            <div class="Country">
+                <label for="">Contact Number</label>
+                <input type="tel" placeholder="+91- 7054530688">
+                <div class="checkbox">
+                    <div class="Verification-Details">
+                        <div class="verification-box">
+                            <input type="checkbox" id="Verification">
                         </div>
-                        <div class="info-1"> 
-                            <h5><strong>Personal Information</strong></h5>
-                            <hr>
+                        <div class="verification-text">
+                            <label for="Verification">Contact Number Verified</label>
                         </div>
                     </div>
-                    
-                   
+
+
                 </div>
-                
+
             </div>
-        </form>
+        </div>
+        <div class="form">
+            <div class="Information-Content">
+                <div class="icon-info">
+                    <div class="icon">
+                        <img src="./User.png" alt="">
+                    </div>
+                    <div class="information-type">
+                        <h5>Personal Information</h5>
+                        <hr>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="profile-container">
+            <div class="profile-information">
+                <div class="profile">
+                    <img class="profile-icon" src="./Mask group.png" alt="">
+                    <div class="edit-button">
+                        <button>Edit Profile Icon</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="profile-details">
+                <div class="gender">
+                    <label for="#">Gender</label>
+                    <select name="#">
+                        <option value="#"></option>
+                        <option value="#">Male</option>
+                        <option value="#">Female</option>
+                        <option value="#">Other</option>
+                    </select>
+                </div>
+                <div class="dob">
+                    <label for="#">Date of Birth</label>
+                    <input type="date">
+                </div>
+            </div>
+
+        </div>
+        <div class="form">
+            <div class="Information-Content">
+                <div class="icon-info">
+                    <div class="icon">
+                        <img src="./User.png" alt="">
+                    </div>
+                    <div class="information-type">
+                        <h5>Academic Information</h5>
+                        <hr>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="School-Percentage">
+                <div class="tenth-percentage">
+                    <label for="#">Enter 10th Percentage</label>
+                    <input type="text">
+                </div>
+                <div class="twelfth-percentage">
+                    <label for="#">Enter 12th Percentage</label>
+                    <input type="text">
+                </div>
+                <div class="graduation-course">
+                    <label for="#">Enter Graduation Course</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="Work-Experience">
+                <div class="graduation-percentage">
+                    <label for="#">Enter Graduation Percentage</label>
+                    <input type="text">
+                </div>
+                <div class="working-experience">
+                    <label for="#">Working Experience</label>
+                    <Select>
+                        <option class="dropdown" value="#"></option>
+                        <option class="dropdown" value="#">Fresher</option>
+                        <option class="dropdown" value="#">6 months- 2 years</option>
+                        <option class="dropdown" value="#">2-5 years</option>
+                        <option class="dropdown" value="#">5-10 years</option>
+                        <option class="dropdown" value="#">Above 10 years</option>
+
+                    </Select>
+                </div>
+                <div class="projects">
+                    <label for="#">Projects</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="Skills">
+                <div class="skills">
+                    <label for="#">Skills</label>
+                    <input type="text">
+                </div>
+                <div class="willing-to-relocate">
+                    <label for="#">Willing to Relocate</label>
+                    <select>
+                        <option class="dropdown" value="#"></option>
+                        <option class="dropdown" value="#">Yes</option>
+                        <option class="dropdown" value="#">No</option>
+
+                    </select>
+                </div>
+                <div class="location">
+                    <label for="#">Location</label>
+                    <select>
+                        <option class="dropdown" value="#"></option>
+                        <option class="dropdown" value="#">Delhi</option>
+                        <option class="dropdown" value="#">Noida</option>
+                    </select>
+                </div>
+            </div>
+            <div class="High-Qualifications">
+                <div class="highest-degree-of-qualification">
+                    <label for="#">Highest Degree Qualification</label>
+                    <input type="text">
+                </div>
+                <div class="highest-degree-of-qualification-percentage">
+                    <label for="#">Highest Degree Qualification Percentage</label>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

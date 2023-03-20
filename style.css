@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
 /* Header */
 
-.header {
+.form-container {
     width: 1272px;
     height: 73px;
     border: 1px solid grey;
-    margin-top: 102px;
+    margin-top: 68px;
     margin-left: 36px;
     background: #FFFFFF;
     border-radius: 12px;
 }
 
-.parent {
+.content-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,10 +66,10 @@
     border-radius: 4px;
 }
 
-.title-parent {
+.icon-info {
     display: flex;
     margin-left: 34px;
-    margin-top: 44px;
+    margin-top: 10px;
 }
 
 .icon {
@@ -77,7 +77,7 @@
     height: 32px;
 }
 
-.title {
+.Information-Content {
     width: 1224px;
     height: 0px;
 
@@ -89,10 +89,9 @@ hr {
     width: 1024px;
 }
 
-.info {
-    width: 173px;
+.information-type {
+    width: 208px;
     height: 46px;
-    margin-left: 14px;
     margin-top: 6px;
     font-family: 'Manrope';
     /* 
@@ -117,29 +116,37 @@ Form {
     margin-top: 6px;
 }
 
-.first-parent {
+.content {
 
     width: 90%;
     margin: auto;
-    margin-top: 76px;
+    margin-top: 50px;
     display: flex;
 
 }
-.second-parent{
+.contents{
+    width: 90%;
+    margin: auto;
+    margin-top: 21px;
+    display: flex;
+}
+
+.second-parent {
     width: 90%;
     margin: auto;
     margin-top: 16px;
     display: flex;
 }
+
 label {
     display: block !important;
 }
 
-.Center {
+.UserName {
     margin-left: 36px;
 }
 
-.Right {
+.Country {
     margin-left: 36px;
 }
 
@@ -154,4 +161,216 @@ input {
     line-height: 19px;
 
     color: #000000;
+}
+select{
+    width: 314px;
+    padding: 10px;
+    height: 36px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000; 
+}
+#Verification {
+    height: 15px;
+}
+
+.Verification-Details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.verification-box {
+    margin-left: -145px;
+}
+
+.verification-text {
+    margin-left: -140px;
+}
+
+.profile-icon {
+    width: 104px;
+    height: 104px;
+    border-radius: 55px;
+
+    background: #4E7C4C;
+}
+
+.edit-button {
+    margin-top: 13px;
+}
+
+button {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000080;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid #000080;
+}
+
+.profile-information {
+    height: 243px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 106px;
+}
+
+.gender {
+    display: grid;
+    gap: 3px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.72);
+
+
+}
+
+.gender Select {
+    box-sizing: border-box;
+
+    width: 248px;
+    height: 36px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+}
+
+.profile-container {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.dob {
+    display: grid;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.72);
+
+}
+
+.dob input {
+    box-sizing: border-box;
+
+    width: 261px;
+    height: 36px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.School-Percentage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Work-Experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.Skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.High-Qualifications {
+    display: flex;
+    gap: 135px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tenth-percentage {
+    display: grid;
+    /* gap: 21px; */
+    margin-top: 44px;
+}
+
+.twelfth-percentage {
+    display: grid;
+    gap: 0px;
+    margin-top: 44px;
+}
+
+.graduation-course {
+    display: grid;
+    gap: 0px;
+    margin-top: 44px;
+
+}
+
+label {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.dropdown {
+    box-sizing: border-box;
+
+    width: 314px;
+    height: 36px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+hr{
+    width: 1224px;
 }
